@@ -242,10 +242,10 @@
             "cursorShape": "bar",
             "fontFace": "Ubuntu Mono derivative powerline",
             "fontSize": 12,
-            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "guid": "{d1e7db4b-95c1-4f61-90ae-51e19d54f3f6}",
             "historySize": 9001,
-            "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
-            "name": "ubuntu wsl",
+            "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+            "name": "Ubuntu 18.04",
             "padding": "0, 0, 0, 0",
             "snapOnInput": true,
             "startingDirectory": "%USERPROFILE%",
@@ -285,7 +285,7 @@
         },
         {
             "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
-            "hidden": false,
+            "hidden": true,
             "name": "Legacy",
             "source": "Windows.Terminal.Wsl"
         },
@@ -344,25 +344,8 @@
             "useAcrylic": true
         },
         {
-            "acrylicOpacity": 0.5,
-            "closeOnExit": true,
-            "colorScheme": "Campbell",
-            "commandline": "wsl.exe -d Ubuntu",
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "fontFace": "Consolas",
-            "fontSize": 10,
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "historySize": 9001,
-            "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-            "name": "Ubuntu",
-            "padding": "0, 0, 0, 0",
-            "snapOnInput": true,
-            "useAcrylic": false
-        },
-        {
             "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-            "hidden": false,
+            "hidden": true,
             "name": "PowerShell Core",
             "source": "Windows.Terminal.PowershellCore"
         },
