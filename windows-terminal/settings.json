@@ -1,6 +1,6 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{9ba92651-bc56-4f93-a981-ad7db7eb8588}",
     "alwaysShowTabs": true,
     "initialCols": 120,
     "initialRows": 30,
@@ -183,7 +183,7 @@
             "cursorShape": "bar",
             "fontFace": "Consolas",
             "fontSize": 10,
-            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "guid": "{9ba92651-bc56-4f93-a981-ad7db7eb8588}",
             "historySize": 9001,
             "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
             "padding": "0, 0, 0, 0",
@@ -274,7 +274,7 @@
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
             "name": "Windows PowerShell",
             "commandline": "powershell.exe",
-            "hidden": false
+            "hidden": true
         },
         {
             // Make changes here to the cmd.exe profile
