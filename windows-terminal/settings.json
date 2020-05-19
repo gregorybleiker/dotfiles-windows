@@ -179,7 +179,7 @@
             "suppressApplicationTitle": true,
             "acrylicOpacity": 0.5,
             "closeOnExit": true,
-            "colorScheme": "Campbell",
+            "colorScheme": "One Half Dark",
             "commandline": "gsudo \"c:\\program files\\powershell\\7\\pwsh.exe\"",
             "cursorColor": "#FFFFFF",
             "cursorShape": "bar",
