@@ -1,0 +1,1 @@
+$packageXml = ""; choco list --local-only --limit-output | % { $_ -split '\|' | select -first 1 } | % { $packageXml += "`n`t<package id=""$_"" />" } -End {"<packages>$packageXml`n</packages>"} | Out-File choco.config
