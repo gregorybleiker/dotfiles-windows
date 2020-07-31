@@ -1,0 +1,3 @@
+set backupdir=c:/temp/
+set directory=c:/temp/
+set undodir=c:/temp/
