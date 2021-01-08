@@ -1,3 +1,8 @@
-set backupdir=c:/temp/
-set directory=c:/temp/
-set undodir=c:/temp/
+if has('persistent_undo')
+	set backupdir=c:/temp/
+	set directory=c:/temp/
+	set undodir=c:/temp/
+endif
+
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>
