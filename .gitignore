@@ -13,3 +13,6 @@ sublime/User/*.crt
 # cmder
 cmder/config/profile.d/
 cmder/config/.history
+
+node_modules
+yarn.lock

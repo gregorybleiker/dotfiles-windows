@@ -1,8 +1,28 @@
-if has('persistent_undo')
-	set backupdir=c:/temp/
-	set directory=c:/temp/
-	set undodir=c:/temp/
+if has('win32') || has('win64')
+	if has('persistent_undo')
+		set backupdir=c:/temp/
+		set directory=c:/temp/
+		set undodir=c:/temp/
+	endif
 endif
 
+"turn on syntax highlighting
+syntax on
+
+" Change leader to a comma because the backslash is too far away
+" That means all \x commands turn into ,x
+" The mapleader has to be set before vundle starts loading all
+" the plugins.
+let mapleader=","
+
+" insert line above or below without going to edit mode
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
+
+" delete without yanking
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
+" replace currently selected text with default register
+" without yanking it
+vnoremap <leader>p "_dP
