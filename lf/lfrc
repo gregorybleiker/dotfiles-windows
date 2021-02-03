@@ -34,4 +34,4 @@ set scrolloff 10
 
 # use enter for shell commands
 map <enter> shell
-map <delete> trash
+map <delete> delete
