@@ -1,20 +1,38 @@
 [user]
-	# name = Sam Free5ide  # Linux
-	name = Sam Fr3eside  # Windows
-	# name = Sam Fre3side  # WSL
-	# name = Sam Frees1de  # Other
-	email = snovvcrash@protonmail.ch
+name = Gregory Bleiker
+email = gregory.bleiker@bbv.ch
+
+[gc]
+autoDetach = false
+
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+
 [credential]
-	helper = manager
+helper = manager
+
+[pull]
+rebase = false
+
+[fetch]
+prune = false
+
+[rebase]
+autoStash = false
+
 [core]
-	editor = \"E:\\Programs\\Sublime Text 3\\sublime_text.exe\" -w
-	autocrlf = true
-	# safecrlf = true
+editor = vim
+autocrlf = true
+# safecrlf = true
+
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	type = cat-file -t
-	dump = cat-file -p
+co = checkout
+ci = commit
+st = status
+br = branch
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+type = cat-file -t
+dump = cat-file -p
