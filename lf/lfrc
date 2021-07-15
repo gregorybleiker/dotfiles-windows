@@ -35,3 +35,5 @@ set scrolloff 10
 # use enter for shell commands
 map <enter> shell
 map <delete> delete
+map d # leave the command name empty like this for unmapping
+map dd delete
